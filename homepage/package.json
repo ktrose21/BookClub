@@ -1,0 +1,12 @@
+{
+    "name": "bookclub",
+    "version": "0.1.0",
+    "homepage": "https://ktrose21.github.io/BookClub",
+    "scripts": {
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build",
+      "start": "react-scripts start",
+      "build": "react-scripts build"
+    }
+  }
+  
